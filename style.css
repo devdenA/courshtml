@@ -1,32 +1,86 @@
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Manufacturing Consent", system-ui;
+    font-weight: 400;
+    font-style: italic;
+    font-size: larger;
     background-color: #9eb4f0;
     color: #000000;
     padding: 20px;
   }
-  
+  div {
+    background-color:rgb(41, 155, 66);
+  }
+
   h1, h2 {
     text-align: center;
   }
+
+  @font-face {
+    font-family: 'Manufacturing Consent' ;
+    src: url('/Bureau/PermanentMarker-Regular.ttf');
+  }
+ 
+  #level {
+    background-color: aliceblue;
+    font-weight: 900;
+  }
+
+  #level:hover {
+    color: white;
+    background-color: black;
+  }
+
+  .Ai {
+    background-color: #000000;
+  }
+
+  .Ai:hover {
+    color: black;
+    background-color: white;
+  }
+  
+ b {
+    font-style: italic;
+  }
   
   img {
-    width: 200px;
-    height: 200px;
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border: 10px;
   }
   
   h3 {
-    color: #333;
+    color: white;
   }
-  
-  p, ul {
+
+  #dd {
+    color:aqua;
   }
   
   ul ul {
-    margin-left: 20px;
+    margin-left: 10px;
   }
   
   a {
     color: blue;
+    font-size:xx-large;
+  }
+
+  a:hover {
+    color: rgba(255, 0, 119, 0.952);
+
+  }
+
+  input {
+    width: 1000px;
+    height: 100px;
+  }
+
+  input:hover {
+    background-image: linear-gradient(to bottom, red, yellow);
   }
   
   
